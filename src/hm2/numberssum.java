@@ -4,12 +4,11 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class numberssum {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int sum = 0;
 
-        do {
+        while (true){
+            int sum = 0;
 
             for (int i = 0; i < 5; i++) {
                 System.out.print("Enter number: ");
@@ -25,15 +24,6 @@ public class numberssum {
             }
 
             System.out.println("Sum numbers: " + sum);
-
-            String choice = scanner.next();
-            if (!choice.equalsIgnoreCase("yes")) {
-                break;
-            }
-
         }
-        while (true);
-        scanner.close();
     }
 }
-
