@@ -1,29 +1,29 @@
 package hm2;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class numberssum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        while (true){
-            int sum = 0;
+        do {
+            System.out.print("Enter number: ");
 
-            for (int i = 0; i < 5; i++) {
-                System.out.print("Enter number: ");
+            String input = scanner.nextLine();
 
-                try {
-                    int number = scanner.nextInt();
-                    sum += number;
-                } catch (InputMismatchException e) {
-                    System.out.println("Input Error.Enter a number.");
-                    scanner.nextLine();
-                    i--;
-                }
-            }
+            String[] numbers = input.split(" ");
+
+            int[] array = Arrays.stream(numbers)
+                    .mapToInt(Integer::parseInt)
+                    .toArray();
+
+            int sum = Arrays.stream(array).sum();
+
 
             System.out.println("Sum numbers: " + sum);
         }
+        while (true);
     }
 }

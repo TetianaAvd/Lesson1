@@ -2,8 +2,8 @@ package hm3;
 
 import java.util.Scanner;
 
-public class grade {
-    public enum Grade {
+class Grade {
+    public enum GradeValue {
         A(91, 100),
         B(81, 90),
         C(71, 80),
@@ -13,26 +13,37 @@ public class grade {
         private final int lowerBound;
         private final int upperBound;
 
-        Grade(int lowerBound, int upperBound) {
+        GradeValue(int lowerBound, int upperBound) {
             this.lowerBound = lowerBound;
             this.upperBound = upperBound;
         }
 
         public boolean isInRange(int grade) {
+
             return grade >= lowerBound && grade <= upperBound;
         }
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("student’s grade: ");
-        int grade = scanner.nextInt();
+        boolean isExit = false;
 
-        for (Grade g : Grade.values()) {
-            if (g.isInRange(grade)) {
-                System.out.println(g);
-                break;
+        while (!isExit) {
+            System.out.print("Enter student's grade : ");
+            int grade = scanner.nextInt();
+
+            if (grade == -1) {
+                isExit = true;
+            } else {
+                for (GradeValue g : GradeValue.values()) {
+                    if (g.isInRange(grade)) {
+                        System.out.println("Grade: " + g);
+                        break;
+                    }
+                }
             }
         }
+
+        System.out.println("Program exited.");
     }
 }
