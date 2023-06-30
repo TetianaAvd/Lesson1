@@ -21,7 +21,6 @@ public class numberssum {
 
             int sum = Arrays.stream(array).sum();
 
-
             System.out.println("Sum numbers: " + sum);
         }
         while (true);

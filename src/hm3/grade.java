@@ -43,6 +43,7 @@ class Grade {
                 }
             }
         }
+
         System.out.println("Program exited.");
     }
 }
