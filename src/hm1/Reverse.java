@@ -20,8 +20,6 @@ public class Reverse {
             }
         } while (true);
     }
-
-
     private static String reverseString(int number) {
         return new StringBuilder(String.valueOf(number)).reverse().toString();
     }

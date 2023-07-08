@@ -17,7 +17,6 @@ public class Numbers {
                 sum += Integer.parseInt(number);
             }
 
-
             System.out.println("Sum numbers: " + sum);
         } while (true);
     }
