@@ -15,6 +15,7 @@ package hm3;
                 this.upperBound = upperBound;
             }
 
+
             public boolean isInRange(int inputMark) {
                 return inputMark >= lowerBound && inputMark <= upperBound;
 

@@ -10,6 +10,7 @@ public class Main {
             System.out.print("Enter student's grade : ");
             int inputMark = scanner.nextInt();
 
+
             if (inputMark == -1);
             else {
                 for (Grade.GradeValue grade : Grade.GradeValue.values()) {
