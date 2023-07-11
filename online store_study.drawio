@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T16:04:29.419Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="XrtRuehwiPcF33JTOh90" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T17:07:20.341Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="J3xVfk26fYnr8J-K4LJQ" version="21.6.1" type="github">
   <diagram name="Страница 1" id="T4Ymd4aeEVdObeijaIQG">
-    <mxGraphModel dx="1901" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1262" dy="224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,7 +101,7 @@
             <mxPoint x="150" y="174.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mv-qWtKqSbX8jmiEhd1X-4" value="quantity&amp;nbsp;int (200)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="mv-qWtKqSbX8jmiEhd1X-4" value="quantity&amp;nbsp;int&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-5" y="210" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mv-qWtKqSbX8jmiEhd1X-6" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.004;exitY=0.853;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
@@ -204,7 +204,7 @@
             <mxPoint x="270" y="371.58000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7vEDjC7CeHjHtgucluSu-18" value="quantity&amp;nbsp;int (200)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="7vEDjC7CeHjHtgucluSu-18" value="quantity&amp;nbsp;int&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="115" y="377.08000000000004" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7vEDjC7CeHjHtgucluSu-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
